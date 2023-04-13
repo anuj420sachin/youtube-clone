@@ -1,0 +1,372 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+   /* background-color: black; */
+}
+/* header section */
+header{position: sticky;
+    background-color: black;
+    width: 100%;
+}
+
+#sum{ cursor: pointer;
+    position: sticky;
+    top :17px;
+    left: 7px;
+    color: white;
+
+}
+.sum{  
+    margin:4px;
+    position:absolute;
+    background-color: aliceblue;
+    width: 40px;
+    height: 3px;
+}
+.sum0{ 
+    top: 12px;
+    margin: 4px;
+    position: absolute;
+    background-color: aliceblue;
+    width: 40px;
+    height: 3px;
+}
+.sum1{
+    top: 25px;
+    margin: 4px;
+    position: absolute;
+    background-color: aliceblue;
+    width: 40px;
+    height: 3px;
+}
+.face{
+    position: absolute;
+     display:flex;
+    left: 1425px;
+     float: right;
+    top:20px;
+    margin: 9px;
+}
+.face img{
+    display: flex;
+    position: absolute;
+    float: right;
+    width: 40px;
+     height: 40px;
+     border-radius: 50%;
+     cursor: pointer;
+    
+}
+
+.main{
+    position: relative;
+    width: 141px;
+    height: 80px;
+}
+.main img{
+     left: 55px;
+    cursor: pointer;
+    position: absolute;
+    margin: 3px;
+    width: 139px;
+    height: 75px;
+    border-radius: 50%;
+}
+/* search section start */
+#ser section{
+   display: block;
+}
+.much{
+    display: flex;
+}
+.much input{
+    position: absolute;
+    left: 444px;
+    top: 15px;
+    width: 596px;
+    height: 46px;
+    border-radius: 34px;
+    font-size: 20px;
+    padding: 12px;
+    background-color: rgb(36, 35, 35);
+}
+
+.much button{
+    top: 16px;
+    position: absolute;
+    left: 996px;
+    background-color: rgb(36, 35, 35);
+}
+.much button img{
+    width :38px;
+    height: 38px;
+    border-top-right-radius: 50px; 
+    border-bottom-right-radius: 50px; 
+    cursor: pointer;
+    filter:invert(90%);
+}
+
+.ser{display: flex;
+    justify-content: center;
+    color: antiquewhite;
+    width :344px;   
+}
+.submit{
+    display: flex;
+   display: block;
+   position: absolute;
+}
+.other{
+   top:12px;
+    margin: 9px;
+    position: absolute;
+    left: 1043px;
+}
+.other img{
+    cursor: pointer;
+    border-radius: 50px;
+    height: 26px;
+    width: 38px;
+    filter: invert(100%);
+}
+.bell{
+    top:10px;
+    margin: 9px;
+    position: absolute;
+    left: 1360px;
+}
+
+.bell img{
+    cursor: pointer;
+    border-radius: 50px;
+    width: 45px;
+    filter: invert(100%);
+} 
+
+nav {
+    display:flex;
+    flex-direction: row;
+    margin:6px;
+    border-radius: 12px;
+     background-color: black;
+}
+.item1{
+    cursor: pointer;
+     display: flex;
+    justify-content: center;
+    background-color: rgba(178, 174, 174, 0.51);
+    color: white;
+    height: 23px;
+    width: 33px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 12px;
+
+}
+.item1:hover{
+    background-color: rgb(110, 114, 114);
+}
+.item2{  
+     cursor: pointer;
+     display: flex;
+    justify-content: center;
+    background-color: rgba(72, 70, 70, 0.51);
+    color: white;
+    height: 23px;
+    width: 80px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 12px;
+
+}
+.item2:hover{
+    background-color: rgb(110, 114, 114);
+}
+.item3{   cursor: pointer;
+     display: flex;
+    justify-content: center;
+    background-color: rgba(72, 70, 70, 0.51);
+    color: white;
+    height: 23px;
+    width: 180px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 12px;
+
+}
+.item3:hover{
+    background-color: rgb(110, 114, 114);
+}
+.item4{   cursor: pointer;
+     display: flex;
+    justify-content: center;
+    background-color: rgba(72, 70, 70, 0.51);
+    height: 23px;
+    width: 80px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 12px;
+    color: aliceblue;
+
+}
+.item4:hover{
+    background-color: rgb(110, 114, 114);
+}
+.item5{
+    cursor: pointer;
+     display: flex;
+    justify-content: center;
+    background-color: rgba(72, 70, 70, 0.51);
+    color: white;
+    height: 23px;
+    width: 80px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 12px;
+
+}
+.item5:hover{
+    background-color: rgb(110, 114, 114);
+}
+.item6{ cursor: pointer;
+     display: flex;
+    justify-content: center;
+    background-color: rgba(72, 70, 70, 0.51);
+    color: white;
+    height: 23px;
+    width: 80px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 12px;
+
+}
+.item6:hover{
+    background-color: rgb(110, 114, 114);
+}
+.item7{ cursor: pointer;
+     display: flex;
+    justify-content: center;
+    background-color: rgba(72, 70, 70, 0.51);
+    color: white;
+    height: 23px;
+    width: 80px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 12px;
+}
+.item7:hover{
+    background-color: rgb(110, 114, 114);
+}
+.item8{ cursor: pointer;
+     display: flex;
+    justify-content: center;
+    background-color: rgba(72, 70, 70, 0.51);
+    color: white;
+    height: 23px;
+    width: 80px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 12px;
+}
+.item8:hover{
+    background-color: rgb(110, 114, 114);
+}
+.item9{cursor: pointer;
+     display: flex;
+    justify-content: center;
+    background-color: rgba(72, 70, 70, 0.51);
+    color: white;
+    height: 23px;
+    width: 80px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 12px;
+}
+.item9:hover{
+    background-color: rgb(110, 114, 114);
+}
+.item10{cursor: pointer;
+     display: flex;
+    justify-content: center;
+    background-color: rgba(72, 70, 70, 0.51);
+    color: white;
+    height: 23px;
+    width: 80px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 12px;
+}
+.item10:hover{
+    background-color: rgb(110, 114, 114);
+}
+.item11{cursor: pointer;
+     display: flex;
+    justify-content: center;
+    background-color: rgba(72, 70, 70, 0.51);
+    color: white;
+    height: 23px;
+    width: 80px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 12px;
+}
+.item11:hover{
+    background-color: rgb(110, 114, 114);
+}
+.item12{cursor: pointer;
+     display: flex;
+    justify-content: center;
+    background-color: rgba(72, 70, 70, 0.51);
+    color: white;
+    height: 23px;
+    width: 80px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 12px;
+}
+.item12:hover{
+    background-color: rgb(110, 114, 114);
+}
+.item13{cursor: pointer;
+     display: flex;
+    justify-content: center;
+    background-color: rgba(72, 70, 70, 0.51);
+    color: white;
+    height: 23px;
+    width: 80px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 12px;
+}
+.item13:hover{
+    background-color: rgb(110, 114, 114);
+}
+.item14{cursor: pointer;
+     display: flex;
+    justify-content: center;
+    background-color: rgba(72, 70, 70, 0.51);
+    color: white;
+    height: 23px;
+    width: 80px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 12px;
+}
+.item14:hover{
+    background-color: rgb(110, 114, 114);
+}
+.item15{cursor: pointer;
+     display: flex;
+    justify-content: center;
+    background-color: rgba(72, 70, 70, 0.51);
+    color: white;
+    height: 23px;
+    width: 120px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 12px;
+}
+.item15:hover{
+    background-color: rgb(110, 114, 114);
+}
